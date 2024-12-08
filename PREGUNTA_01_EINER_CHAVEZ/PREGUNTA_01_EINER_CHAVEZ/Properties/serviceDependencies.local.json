@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:PREGUNTA_01_EINER_CHAVEZContext"
+    }
+  }
+}

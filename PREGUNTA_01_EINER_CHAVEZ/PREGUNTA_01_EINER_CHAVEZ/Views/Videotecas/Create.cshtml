@@ -1,0 +1,86 @@
+﻿@model PREGUNTA_01_EINER_CHAVEZ.Models.Videoteca
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="bg-light py-5" style="min-height: 100vh;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-sm border-0">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-plus-circle"></i> Crear Nueva Videoteca
+                        </h4>
+                    </div>
+                    <div class="card-body bg-white">
+                        <form asp-action="Create">
+                            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                            <div class="form-group mb-3">
+                                <label asp-for="Nombre" class="control-label text-primary">
+                                    <i class="fas fa-font"></i> Nombre
+                                </label>
+                                <input asp-for="Nombre" class="form-control border rounded-pill" />
+                                <span asp-validation-for="Nombre" class="text-danger"></span>
+                            </div>
+
+
+                            <div class="form-group mb-3">
+                                <label asp-for="Tipo" class="control-label text-primary">
+                                    <i class="fas fa-tags"></i> Tipo
+                                </label>
+                                <input asp-for="Tipo" class="form-control border rounded-pill" />
+                                <span asp-validation-for="Tipo" class="text-danger"></span>
+                            </div>
+
+                        
+                            <div class="form-group mb-3">
+                                <label asp-for="VecesVista" class="control-label text-primary">
+                                    <i class="fas fa-eye"></i> Veces Vista
+                                </label>
+                                <input asp-for="VecesVista" class="form-control border rounded-pill" />
+                                <span asp-validation-for="VecesVista" class="text-danger"></span>
+                            </div>
+
+                   
+                            <div class="form-group mb-3">
+                                <label asp-for="Rating" class="control-label text-primary">
+                                    <i class="fas fa-star"></i> Rating
+                                </label>
+                                <input asp-for="Rating" class="form-control border rounded-pill" />
+                                <span asp-validation-for="Rating" class="text-danger"></span>
+                            </div>
+
+                           
+                            <div class="form-group mb-4">
+                                <label asp-for="Fecha" class="control-label text-primary">
+                                    <i class="fas fa-calendar-alt"></i> Fecha
+                                </label>
+                                <input asp-for="Fecha" class="form-control border rounded-pill" />
+                                <span asp-validation-for="Fecha" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group text-center">
+                                <input type="submit" value="Crear" class="btn btn-primary px-5 rounded-pill shadow-sm" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-footer bg-light text-center">
+                        <a asp-action="Index" class="btn btn-secondary rounded-pill">
+                            <i class="fas fa-arrow-left"></i> Volver a la Lista
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+}

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|c:\\servicios web 1\\examenes_\\pregunta_01_einer_chavez\\pregunta_01_einer_chavez\\controllers\\videotecascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|solutionrelative:pregunta_01_einer_chavez\\controllers\\videotecascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|c:\\servicios web 1\\examenes_\\pregunta_01_einer_chavez\\pregunta_01_einer_chavez\\views\\videotecas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|solutionrelative:pregunta_01_einer_chavez\\views\\videotecas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|c:\\servicios web 1\\examenes_\\pregunta_01_einer_chavez\\pregunta_01_einer_chavez\\views\\videotecas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|solutionrelative:pregunta_01_einer_chavez\\views\\videotecas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|c:\\servicios web 1\\examenes_\\pregunta_01_einer_chavez\\pregunta_01_einer_chavez\\views\\videotecas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|solutionrelative:pregunta_01_einer_chavez\\views\\videotecas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|c:\\servicios web 1\\examenes_\\pregunta_01_einer_chavez\\pregunta_01_einer_chavez\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|solutionrelative:pregunta_01_einer_chavez\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|c:\\servicios web 1\\examenes_\\pregunta_01_einer_chavez\\pregunta_01_einer_chavez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|solutionrelative:pregunta_01_einer_chavez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|c:\\servicios web 1\\examenes_\\pregunta_01_einer_chavez\\pregunta_01_einer_chavez\\models\\videoteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24ACB83-A2B8-4F13-AB4B-8735D7C158AC}|PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ.csproj|solutionrelative:pregunta_01_einer_chavez\\models\\videoteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 46,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Details.cshtml",
+              "RelativeDocumentMoniker": "PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Details.cshtml",
+              "ToolTip": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Details.cshtml",
+              "RelativeToolTip": "PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Details.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T03:02:42.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Edit.cshtml",
+              "ToolTip": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Edit.cshtml",
+              "RelativeToolTip": "PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T03:02:41.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Program.cs",
+              "RelativeDocumentMoniker": "PREGUNTA_01_EINER_CHAVEZ\\Program.cs",
+              "ToolTip": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Program.cs",
+              "RelativeToolTip": "PREGUNTA_01_EINER_CHAVEZ\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T00:29:43.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VideotecasController.cs",
+              "DocumentMoniker": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Controllers\\VideotecasController.cs",
+              "RelativeDocumentMoniker": "PREGUNTA_01_EINER_CHAVEZ\\Controllers\\VideotecasController.cs",
+              "ToolTip": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Controllers\\VideotecasController.cs",
+              "RelativeToolTip": "PREGUNTA_01_EINER_CHAVEZ\\Controllers\\VideotecasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T23:49:56.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Videoteca.cs",
+              "DocumentMoniker": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Models\\Videoteca.cs",
+              "RelativeDocumentMoniker": "PREGUNTA_01_EINER_CHAVEZ\\Models\\Videoteca.cs",
+              "ToolTip": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Models\\Videoteca.cs",
+              "RelativeToolTip": "PREGUNTA_01_EINER_CHAVEZ\\Models\\Videoteca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T23:25:15.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\appsettings.json",
+              "RelativeDocumentMoniker": "PREGUNTA_01_EINER_CHAVEZ\\appsettings.json",
+              "ToolTip": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\appsettings.json",
+              "RelativeToolTip": "PREGUNTA_01_EINER_CHAVEZ\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T21:46:06.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Index.cshtml",
+              "RelativeDocumentMoniker": "PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Index.cshtml",
+              "ToolTip": "C:\\SERVICIOS WEB 1\\EXAMENES_\\PREGUNTA_01_EINER_CHAVEZ\\PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Index.cshtml",
+              "RelativeToolTip": "PREGUNTA_01_EINER_CHAVEZ\\Views\\Videotecas\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T21:26:23.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PREGUNTA_02_EINER_CHAVEZ.props" />
+</Project>

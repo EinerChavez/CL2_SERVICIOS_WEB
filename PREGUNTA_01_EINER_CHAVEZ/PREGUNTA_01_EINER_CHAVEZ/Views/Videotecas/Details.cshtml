@@ -1,0 +1,71 @@
+﻿@model PREGUNTA_01_EINER_CHAVEZ.Models.Videoteca
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="bg-light py-5" style="min-height: 100vh;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-sm border-0">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-info-circle"></i> Detalles de la Videoteca
+                        </h4>
+                    </div>
+                    <div class="card-body bg-white">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-primary border-bottom py-2">
+                                <i class="fas fa-font"></i> Nombre
+                            </dt>
+                            <dd class="col-sm-8 border-bottom py-2">
+                                @Html.DisplayFor(model => model.Nombre)
+                            </dd>
+
+                            <dt class="col-sm-4 text-primary border-bottom py-2">
+                                <i class="fas fa-tags"></i> Tipo
+                            </dt>
+                            <dd class="col-sm-8 border-bottom py-2">
+                                @Html.DisplayFor(model => model.Tipo)
+                            </dd>
+
+                            <dt class="col-sm-4 text-primary border-bottom py-2">
+                                <i class="fas fa-eye"></i> Veces Vista
+                            </dt>
+                            <dd class="col-sm-8 border-bottom py-2">
+                                @Html.DisplayFor(model => model.VecesVista)
+                            </dd>
+
+                            <dt class="col-sm-4 text-primary border-bottom py-2">
+                                <i class="fas fa-star"></i> Rating
+                            </dt>
+                            <dd class="col-sm-8 border-bottom py-2">
+                                @Html.DisplayFor(model => model.Rating)
+                            </dd>
+
+                            <dt class="col-sm-4 text-primary py-2">
+                                <i class="fas fa-calendar-alt"></i> Fecha
+                            </dt>
+                            <dd class="col-sm-8 py-2">
+                                @Model.Fecha?.ToString("yyyy-MM-dd") 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="card-footer bg-light text-center">
+                        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning text-white mx-2">
+                            <i class="fas fa-edit"></i> Editar
+                        </a>
+                        <a asp-action="Index" class="btn btn-secondary mx-2">
+                            <i class="fas fa-arrow-left"></i> Volver a la Lista
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+}

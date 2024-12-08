@@ -1,0 +1,88 @@
+﻿@model PREGUNTA_02_EINER_CHAVEZ.ViewModels.UsuarioVM
+
+@{
+    ViewData["Title"] = "Registrar Usuario";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-header text-center bg-primary text-white">
+                    <h4>@ViewData["Title"]</h4>
+                </div>
+                <div class="card-body">
+                    <form id="registerForm" asp-action="Create" method="post">
+                        <div class="form-group">
+                            <label asp-for="Usuario" class="control-label"></label>
+                            <input asp-for="Usuario" class="form-control" placeholder="Ingresa tu nombre de usuario" />
+                            <span asp-validation-for="Usuario" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Correo" class="control-label"></label>
+                            <input asp-for="Correo" class="form-control" placeholder="Ingresa tu correo electrónico" />
+                            <span asp-validation-for="Correo" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Contraseña" class="control-label"></label>
+                            <input asp-for="Contraseña" class="form-control" type="password" placeholder="Ingresa tu contraseña" />
+                            <span asp-validation-for="Contraseña" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ConfirmarContraseña" class="control-label"></label>
+                            <input asp-for="ConfirmarContraseña" class="form-control" type="password" placeholder="Confirma tu contraseña" />
+                            <span asp-validation-for="ConfirmarContraseña" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-center mt-4">
+                            <button type="submit" class="btn btn-success btn-lg mb-3">
+                                Registrar <i class="fas fa-user-plus"></i>
+                            </button>
+                        </div>
+                         </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title" id="exampleModalLabel"><i class="fas fa-check-circle"></i> Registro Exitoso</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p><i class="fas fa-thumbs-up"></i> ¡El registro se realizó con éxito!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="closeModalButton">Aceptar <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var isSuccessful = '@TempData["IsSuccessful"]' === 'True'; 
+            if (isSuccessful) {
+                $('#successModal').modal('show'); 
+            }
+
+            $('#closeModalButton').click(function () {
+                window.location.href = '@Url.Action("Index", "Home")';  });
+        });
+    </script>
+}
